@@ -238,17 +238,8 @@
 
   </div>
 
-  <hr>
-
-  <div class="contentText">
-    <div class="form-group">
-      <label for="inputComments" class="control-label col-sm-4"><?php echo TABLE_HEADING_COMMENTS; ?></label>
-      <div class="col-sm-8">
-        <?php
-        echo tep_draw_textarea_field('comments', 'soft', 60, 5, $comments, 'id="inputComments" placeholder="' . TABLE_HEADING_COMMENTS . '"');
-        ?>
-      </div>
-    </div>
+  <div class="row">
+    <?php echo $oscTemplate->getContent('checkout_payment'); ?>
   </div>
 
   <div class="buttonSet">
