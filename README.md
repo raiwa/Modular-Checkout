@@ -13,7 +13,7 @@ Exposé:
     -  address (2 modules)
     -  shipping/payment methods
     -  comments <i>DONE @raiwa</i>
-    -  continue button <i>@raiwa</i>
+    -  continue button <i>DONE @raiwa</i>
     -  progress line <i>@raiwa</i>
 
 2.   Checkout confirmation:
