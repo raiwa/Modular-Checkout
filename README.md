@@ -38,5 +38,5 @@ Exposé:
     -  progress line
     
     Please self asign in comment or in this forum:
-    <a href://"https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187">Modular Checkout</a>
+    https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
     
