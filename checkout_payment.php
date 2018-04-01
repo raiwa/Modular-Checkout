@@ -242,10 +242,6 @@
     <?php echo $oscTemplate->getContent('checkout_payment'); ?>
   </div>
 
-  <div class="buttonSet">
-    <div class="text-right"><?php echo tep_draw_button(IMAGE_BUTTON_CONTINUE, 'fa fa-angle-right', null, 'primary', null, 'btn-success'); ?></div>
-  </div>
-
   <div class="clearfix"></div>
 
   <div class="contentText">
