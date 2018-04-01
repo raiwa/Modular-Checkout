@@ -12,9 +12,9 @@ Exposé:
     -  page header
     -  address (2 modules)
     -  shipping/payment methods
-    -  comments
-    -  continue button
-    -  progress line
+    -  comments <i>DONE @raiwa</i>
+    -  continue button <i>@raiwa</i>
+    -  progress line <i>@raiwa</i>
 
 2.   Checkout confirmation:
 
