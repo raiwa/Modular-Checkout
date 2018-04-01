@@ -27,7 +27,7 @@ Exposé:
     -  payment information
     -  comments
     -  confirm order button
-    -  progress line<i>@Dan Cole</i>
+    -  progress line <i>@Dan Cole</i>
 
 3.   Checkout shipping/payment address (optional)
 
@@ -35,7 +35,7 @@ Exposé:
     - address (2 modules)
     -  new shipping/billing address
     -  continue button
-    -  progress line<i>@Dan Cole</i>
+    -  progress line <i>@Dan Cole</i>
     
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
