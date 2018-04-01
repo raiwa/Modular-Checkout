@@ -24,8 +24,6 @@ define('TEXT_SELECT_PAYMENT_METHOD', 'Please select the preferred payment method
 define('TITLE_PLEASE_SELECT', 'Please Select');
 define('TEXT_ENTER_PAYMENT_INFORMATION', 'This is currently the only payment method available to use on this order.');
 
-define('TABLE_HEADING_COMMENTS', 'Add Comments About Your Order');
-
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Continue Checkout Procedure');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'to confirm this order.');
 ?>
