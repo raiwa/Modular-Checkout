@@ -1,4 +1,4 @@
-<div class="col-sm-<?php echo $content_width; ?> comments">
+<div class="col-sm-<?php echo $content_width; ?> cm-cs-comments">
 <hr>
 
   <div class="contentText">
