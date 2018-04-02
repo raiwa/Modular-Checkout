@@ -33,9 +33,9 @@ Exposé:
 
     - page header
     - address (2 modules)
-    -  new shipping/billing address
-    -  continue button
-    -  progress line <i>@Dan Cole</i>
+    - new shipping/billing address
+    - continue button
+-  progress line <i>DONE @Dan Cole</i> [Sort order=600]
     
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
