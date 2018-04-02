@@ -9,32 +9,32 @@ Exposé:
 
 1.   Checkout shipping and payment:
 
-    -  page header
-    -  address (2 modules)
-    -  shipping/payment methods
-    -  comments <i>DONE @raiwa</i>
-    -  continue button <i>DONE @raiwa</i>
-    -  progress line <i>@Dan Cole</i>
+    -  page header [Sort order=100]
+    -  address (2 modules)  [Sort order=200] [Sort order=300]
+    -  shipping/payment methods [Sort order=400]
+    -  comments <i>DONE @raiwa</i> [Sort order=500]
+    -  continue button <i>DONE @raiwa</i> [Sort order=600]
+    -  progress line <i>@Dan Cole</i>  [Sort order=700]
 
 2.   Checkout confirmation:
 
-    -  page header
-    -  products+ot
-    -  delivery address
-    -  payment address
-    -  shipping method
-    -  payment method
-    -  payment information
-    -  comments
-    -  confirm order button
-    -  progress line <i>@Dan Cole</i>
+    -  page header [Sort order=100]
+    -  products+ot [Sort order=200]
+    -  delivery address [Sort order=300]
+    -  payment address [Sort order=400]
+    -  shipping method [Sort order=500]
+    -  payment method [Sort order=600]
+    -  payment information [Sort order=700]
+    -  comments <i>@raiwa</i> [Sort order=800]
+    -  confirm order button <i>@raiwa</i> [Sort order=900]
+    -  progress line <i>@Dan Cole</i> [Sort order=1000]
 
 3.   Checkout shipping/payment address (optional)
 
-    - page header
-    - address (2 modules)
-    - new shipping/billing address
-    - continue button
+    - page header [Sort order=100]
+    - address (2 modules) [Sort order=200] [Sort order=300]
+    - new shipping/billing address [Sort order=400]
+    - continue button <i>@raiwa</i> [Sort order=500]
 -  progress line <i>DONE @Dan Cole</i> [Sort order=600]
     
     Please self asign in comment or in this forum:
