@@ -40,7 +40,7 @@
       if (tep_not_null($order->info['comments'])) {
       
         ob_start();
-        include('includes/modules/content/' . $this->group . '/templates/comments.php');
+        include('includes/modules/content/' . $this->group . '/templates/tpl_' . basename(__FILE__));
         $template = ob_get_clean();
 
         $oscTemplate->addContent($template, $this->group);
