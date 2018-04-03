@@ -25,8 +25,8 @@ Exposé:
     -  shipping method [Sort order=500]
     -  payment method [Sort order=600]
     -  payment information [Sort order=700]
-    -  comments <i>@raiwa</i> [Sort order=800]
-    -  confirm order button <i>@raiwa</i> [Sort order=900]
+    -  comments <i>DONE @raiwa</i> [Sort order=800]
+    -  confirm order button <i>DONE @raiwa</i> [Sort order=900]
 -  progress line <i>DONE @Dan Cole</i> [Sort order=1000]
 
 3.   Checkout shipping/payment address (optional)
