@@ -249,31 +249,7 @@
 <?php
     }
   }
-
-  if (tep_not_null($order->info['comments'])) {
 ?>
-  <hr>
-
-  <h2><?php echo '<strong>' . HEADING_ORDER_COMMENTS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_payment.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></h2>
-
-  <blockquote>
-    <?php echo nl2br(tep_output_string_protected($order->info['comments'])) . tep_draw_hidden_field('comments', $order->info['comments']); ?>
-  </blockquote>
-
-<?php
-  }
-?>
-
-  <div class="buttonSet">
-    <div class="text-right">
-      <?php
-      if (is_array($payment_modules->modules)) {
-        echo $payment_modules->process_button();
-      }
-      echo tep_draw_button(IMAGE_BUTTON_FINALISE_ORDER, 'fas fa-check-circle', null, 'primary', null, 'btn-success btn-block btn-lg');
-      ?>
-    </div>
-  </div>
 
   <div class="row">
     <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
