@@ -11,7 +11,7 @@ Exposé:
 
     -  page header [Sort order=100]
     -  address (2 modules)  [Sort order=200] [Sort order=300]
-    -  shipping/payment methods [Sort order=400]
+    -  shipping/payment methods <i>@raiwa</i> [Sort order=400]
 -  comments <i>DONE @raiwa</i> [Sort order=500]
 -  continue button <i>DONE @raiwa</i> [Sort order=600]
     -  progress line <i>@Dan Cole</i>  [Sort order=700]
@@ -34,7 +34,7 @@ Exposé:
     - page header [Sort order=100]
     - address (2 modules) [Sort order=200] [Sort order=300]
     - new shipping/billing address [Sort order=400]
-    - continue button <i>@raiwa</i> [Sort order=500]
+    - continue button <i>DONE @raiwa</i> [Sort order=500]
 -  progress line <i>DONE @Dan Cole</i> [Sort order=600]
     
     Please self asign in comment or in this forum:
