@@ -10,8 +10,8 @@ Exposé:
 1.   Checkout shipping and payment:
 
     -  page header [Sort order=100]
-    -  address (2 modules)  [Sort order=200] [Sort order=300]
-    -  shipping/payment methods <i>@raiwa</i> [Sort order=400]
+    -  address (2 modules) <i>@raiwa</i> [Sort order=200] [Sort order=300]
+    -  shipping/payment methods <i>DONE @raiwa</i> [Sort order=400]
 -  comments <i>DONE @raiwa</i> [Sort order=500]
 -  continue button <i>DONE @raiwa</i> [Sort order=600]
     -  progress line <i>@Dan Cole</i>  [Sort order=700]
