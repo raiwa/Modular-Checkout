@@ -28,7 +28,16 @@
 ?>
 
   <div class="contentText">
-    <div class="alert alert-info"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TEXT_ENTER_PAYMENT_INFORMATION; ?></div>
+    <div class="alert alert-info"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TEXT_ENTER_PAYMENT_INFORMATION<?php
+/*
+  $Id$
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+  Copyright (c) 2018 osCommerce
+  Released under the GNU General Public License
+*/
+?>
+; ?></div>
   </div>
 
 <?php

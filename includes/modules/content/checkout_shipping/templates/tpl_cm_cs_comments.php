@@ -1,4 +1,13 @@
-<div class="col-sm-<?php echo $content_width; ?> cm-cs-comments">
+<?php
+/*
+  $Id$
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+  Copyright (c) 2018 osCommerce
+  Released under the GNU General Public License
+*/
+?>
+<div class="col-sm-<?php echo $content_width; ?> cm-cs-shipping-address">
 <hr>
 
   <div class="contentText">
