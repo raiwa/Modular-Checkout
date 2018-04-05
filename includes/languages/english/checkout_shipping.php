@@ -15,10 +15,6 @@ define('NAVBAR_TITLE_2', 'Shipping Method');
 
 define('HEADING_TITLE', 'Delivery Information');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', 'Shipping Address');
-define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'Please choose from your address book where you would like the items to be delivered to.');
-define('TITLE_SHIPPING_ADDRESS', 'Shipping Address:');
-
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Continue Checkout Procedure');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'to select the preferred payment method.');
 
