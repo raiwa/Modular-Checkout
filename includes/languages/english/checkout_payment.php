@@ -14,7 +14,3 @@ define('NAVBAR_TITLE_1', 'Checkout');
 define('NAVBAR_TITLE_2', 'Payment Method');
 
 define('HEADING_TITLE', 'Payment Information');
-
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Continue Checkout Procedure');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'to confirm this order.');
-?>
