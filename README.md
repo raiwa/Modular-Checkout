@@ -10,11 +10,11 @@ Exposé:
 1.   Checkout shipping and payment:
 
     -  page header <i>@Dan Cole</i> [Sort order=100]
-    -  address (2 modules) <i>@raiwa</i> [Sort order=200] [Sort order=300]
-    -  shipping/payment methods <i>DONE @raiwa</i> [Sort order=400]
--  comments <i>DONE @raiwa</i> [Sort order=500]
--  continue button <i>DONE @raiwa</i> [Sort order=600]
--  progress line <i>DONE @Dan Cole</i>  [Sort order=700]
+    -  address (1 module) <i>@raiwa</i> [Sort order=200]
+    -  shipping/payment methods <i>DONE @raiwa</i> [Sort order=300]
+-  comments <i>DONE @raiwa</i> [Sort order=400]
+-  continue button <i>DONE @raiwa</i> [Sort order=500]
+-  progress line <i>DONE @Dan Cole</i>  [Sort order=600]
 
 2.   Checkout confirmation:
 
@@ -32,10 +32,10 @@ Exposé:
 3.   Checkout shipping/payment address (optional)
 
     - page header <i>@Dan Cole</i> [Sort order=100]
-    - address (2 modules) [Sort order=200] [Sort order=300]
-    - new shipping/billing address [Sort order=400]
-    - continue button <i>DONE @raiwa</i> [Sort order=500]	
-    - progress line <i>DONE @Dan Cole</i> [Sort order=600]
+    - address (1 module) [Sort order=200]
+    - new shipping/billing address [Sort order=300]
+    - continue button <i>DONE @raiwa</i> [Sort order=400]	
+    - progress line <i>DONE @Dan Cole</i> [Sort order=500]
     
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
