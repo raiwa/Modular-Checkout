@@ -1,7 +1,7 @@
- <div class="clearfix"></div>
-  
- <div class="col-sm-<?php echo $content_width; ?>">
+  <div class="col-sm-<?php echo $content_width; ?> cm-cs-stepwizard">
 
+  <div class="clearfix"></div>
+  
   <div class="contentText">
     <div class="stepwizard">
       <div class="stepwizard-row">
