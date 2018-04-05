@@ -111,6 +111,10 @@
 <div class="contentContainer">
   <div class="contentText">
 
+  <?php
+/*
+?>
+  
     <div class="panel panel-default">
       <div class="panel-heading"><?php echo '<strong>' . HEADING_PRODUCTS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('shopping_cart.php'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
       <div class="panel-body">
@@ -159,11 +163,14 @@
     </div>
 
 
-
+<?php
+*/
+?>
   </div>
 
   <div class="clearfix"></div>
-
+<?php
+/*
   <div class="row">
     <?php
     if ($sendto != false) {
@@ -210,8 +217,8 @@
 
 
   </div>
-
-
+*/
+?>
 <?php
   if (is_array($payment_modules->modules)) {
     if ($confirmation = $payment_modules->confirmation()) {
@@ -252,7 +259,7 @@
 ?>
 
   <div class="row">
-    <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
+<?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
   </div>
   
 </div>
