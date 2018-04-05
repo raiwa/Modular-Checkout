@@ -174,28 +174,6 @@
 <?php echo tep_draw_form('checkout_address', tep_href_link('checkout_shipping.php', '', 'SSL'), 'post', 'class="form-horizontal"', true) . tep_draw_hidden_field('action', 'process'); ?>
 
 <div class="contentContainer">
-  <h2><?php echo TABLE_HEADING_SHIPPING_ADDRESS; ?></h2>
-
-  <div class="contentText row">
-    <div class="col-sm-8">
-      <div class="alert alert-warning">
-        <?php echo TEXT_CHOOSE_SHIPPING_DESTINATION; ?>
-        <div class="clearfix"></div>
-        <div class="pull-right">
-          <?php echo tep_draw_button(IMAGE_BUTTON_CHANGE_ADDRESS, 'fa fa-home', tep_href_link('checkout_shipping_address.php', '', 'SSL')); ?>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading"><?php echo TITLE_SHIPPING_ADDRESS; ?></div>
-        <div class="panel-body">
-          <?php echo tep_address_label($customer_id, $sendto, true, ' ', '<br />'); ?>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <div class="row">
     <?php echo $oscTemplate->getContent('checkout_shipping'); ?>
