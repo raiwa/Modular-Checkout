@@ -88,10 +88,6 @@
 
 <?php echo $payment_modules->javascript_validation(); ?>
 
-<div class="page-header">
-  <h1><?php echo HEADING_TITLE; ?></h1>
-</div>
-
 <?php echo tep_draw_form('checkout_payment', tep_href_link('checkout_confirmation.php', '', 'SSL'), 'post', 'class="form-horizontal" onsubmit="return check_form();"', true); ?>
 
 <div class="contentContainer">
