@@ -43,6 +43,7 @@ Exposé:
 
     - address block in checkout_shipping/payment: 1 or 3 modules
     - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2)
+    - old "checkout_new_address.php" module: call in modules via "include" or move content into new modules. 
     
 5.   checks/tests to be performed:    
     - class="clearfix"line in step wizard module: disturbs/needed if sort order is changed?
