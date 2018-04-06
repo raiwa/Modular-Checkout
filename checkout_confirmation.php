@@ -104,104 +104,16 @@
   } else {
     $form_action_url = tep_href_link('checkout_process.php', '', 'SSL');
   }
-
+  
   echo tep_draw_form('checkout_confirmation', $form_action_url, 'post');
 ?>
 
 <div class="contentContainer">
   <div class="contentText">
-  </div>
-
-  <div class="clearfix"></div>
-  <div class="row">
-    <?php
-    if ($sendto != false) {
-      ?>
-      <div class="col-sm-4">
-        <div class="panel panel-info">
-          <div class="panel-heading"><?php echo '<strong>' . HEADING_DELIVERY_ADDRESS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_shipping_address.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
-          <div class="panel-body">
-            <?php echo tep_address_format($order->delivery['format_id'], $order->delivery, 1, ' ', '<br />'); ?>
-          </div>
-        </div>
-      </div>
-      <?php
-    }
-    ?>
-    <div class="col-sm-4">
-      <div class="panel panel-warning">
-        <div class="panel-heading"><?php echo '<strong>' . HEADING_BILLING_ADDRESS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_payment_address.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
-        <div class="panel-body">
-          <?php echo tep_address_format($order->billing['format_id'], $order->billing, 1, ' ', '<br />'); ?>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <?php
-      if ($order->info['shipping_method']) {
-        ?>
-        <div class="panel panel-info">
-          <div class="panel-heading"><?php echo '<strong>' . HEADING_SHIPPING_METHOD . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_shipping.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
-          <div class="panel-body">
-            <?php echo $order->info['shipping_method']; ?>
-          </div>
-        </div>
-        <?php
-      }
-      ?>
-      <div class="panel panel-warning">
-        <div class="panel-heading"><?php echo '<strong>' . HEADING_PAYMENT_METHOD . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_payment.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
-        <div class="panel-body">
-          <?php echo $order->info['payment_method']; ?>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-<?php
-  if (is_array($payment_modules->modules)) {
-    if ($confirmation = $payment_modules->confirmation()) {
-?>
-  <hr>
-
-  <h2><?php echo HEADING_PAYMENT_INFORMATION; ?></h2>
-
-  <div class="contentText row">
-<?php
-    if (tep_not_null($confirmation['title'])) {
-      echo '<div class="col-sm-6">';
-      echo '  <div class="alert alert-danger">';
-      echo $confirmation['title'];
-      echo '  </div>';
-      echo '</div>';
-    }
-?>
-<?php
-      if (isset($confirmation['fields'])) {
-        echo '<div class="col-sm-6">';
-        echo '  <div class="alert alert-info">';
-        $fields = '';
-        for ($i=0, $n=sizeof($confirmation['fields']); $i<$n; $i++) {
-          $fields .= $confirmation['fields'][$i]['title'] . ' ' . $confirmation['fields'][$i]['field'] . '<br>';
-        }
-        if (strlen($fields) > 4) echo substr($fields,0,-4);
-        echo '  </div>';
-        echo '</div>';
-      }
-?>
-  </div>
-  <div class="clearfix"></div>
-
-<?php
-    }
-  }
-?>
-
-  <div class="row">
+   <div class="row">
 <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
+    </div>
   </div>
-
 </div>
 
 </form>
