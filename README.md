@@ -37,6 +37,15 @@ Exposé:
     - continue button <i>DONE @raiwa</i> [Sort order=400]	
     - progress line <i>DONE @Dan Cole</i> [Sort order=500]
     
+    
+4.   doubts/to decide:
+
+    - address block in checkout_shipping/payment: 1 or 3 modules
+    - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2)
+    
+5.   checks/tests to be performed:    
+    - <div class="clearfix"></div> in step wizard module: disturbs/needed if sort order is changed?
+    
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
     
