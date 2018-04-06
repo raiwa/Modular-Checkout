@@ -9,7 +9,7 @@ Exposé:
 
 1.   Checkout shipping and payment:
 
-    -  page header <i>@Dan Cole</i> [Sort order=100]
+    -  page header <i>DONE @Dan Cole</i> [Sort order=100]
     -  address (1 module) <i>DONE @raiwa</i> [Sort order=200]
     -  shipping/payment methods <i>DONE @raiwa</i> [Sort order=300]
 -  comments <i>DONE @raiwa</i> [Sort order=400]
