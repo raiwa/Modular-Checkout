@@ -110,10 +110,151 @@
 
 <div class="contentContainer">
   <div class="contentText">
-   <div class="row">
-<?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><?php echo '<strong>' . HEADING_PRODUCTS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('shopping_cart.php'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
+      <div class="panel-body">
+    <table width="100%" class="table-hover order_confirmation">
+     <tbody>
+
+<?php
+  for ($i=0, $n=sizeof($order->products); $i<$n; $i++) {
+    echo '          <tr>' . "\n" .
+         '            <td align="right" valign="top" width="30">' . $order->products[$i]['qty'] . '&nbsp;x&nbsp;</td>' . "\n" .
+         '            <td valign="top">' . $order->products[$i]['name'];
+
+    if (STOCK_CHECK == 'true') {
+      echo tep_check_stock($order->products[$i]['id'], $order->products[$i]['qty']);
+    }
+
+    if ( (isset($order->products[$i]['attributes'])) && (sizeof($order->products[$i]['attributes']) > 0) ) {
+      for ($j=0, $n2=sizeof($order->products[$i]['attributes']); $j<$n2; $j++) {
+        echo '<br /><nobr><small>&nbsp;<i> - ' . $order->products[$i]['attributes'][$j]['option'] . ': ' . $order->products[$i]['attributes'][$j]['value'] . '</i></small></nobr>';
+      }
+    }
+
+    echo '</td>' . "\n";
+
+    if (sizeof($order->info['tax_groups']) > 1) echo '            <td valign="top" align="right">' . tep_display_tax_value($order->products[$i]['tax']) . '%</td>' . "\n";
+
+    echo '            <td align="right" valign="top">' . $currencies->display_price($order->products[$i]['final_price'], $order->products[$i]['tax'], $order->products[$i]['qty']) . '</td>' . "\n" .
+         '          </tr>' . "\n";
+  }
+?>
+
+
+        </tbody>
+      </table>
+      <hr>
+      <table width="100%" class="pull-right">
+
+<?php
+  if (MODULE_ORDER_TOTAL_INSTALLED) {
+    echo $order_total_modules->output();
+  }
+?>
+
+        </table>
+            </div>
     </div>
+
+
+
   </div>
+
+  <div class="clearfix"></div>
+
+  <div class="row">
+    <?php
+    if ($sendto != false) {
+      ?>
+      <div class="col-sm-4">
+        <div class="panel panel-info">
+          <div class="panel-heading"><?php echo '<strong>' . HEADING_DELIVERY_ADDRESS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_shipping_address.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
+          <div class="panel-body">
+            <?php echo tep_address_format($order->delivery['format_id'], $order->delivery, 1, ' ', '<br />'); ?>
+          </div>
+        </div>
+      </div>
+      <?php
+    }
+    ?>
+    <div class="col-sm-4">
+      <div class="panel panel-warning">
+        <div class="panel-heading"><?php echo '<strong>' . HEADING_BILLING_ADDRESS . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_payment_address.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
+        <div class="panel-body">
+          <?php echo tep_address_format($order->billing['format_id'], $order->billing, 1, ' ', '<br />'); ?>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <?php
+      if ($order->info['shipping_method']) {
+        ?>
+        <div class="panel panel-info">
+          <div class="panel-heading"><?php echo '<strong>' . HEADING_SHIPPING_METHOD . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_shipping.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
+          <div class="panel-body">
+            <?php echo $order->info['shipping_method']; ?>
+          </div>
+        </div>
+        <?php
+      }
+      ?>
+      <div class="panel panel-warning">
+        <div class="panel-heading"><?php echo '<strong>' . HEADING_PAYMENT_METHOD . '</strong>' . tep_draw_button(TEXT_EDIT, 'fa fa-edit', tep_href_link('checkout_payment.php', '', 'SSL'), NULL, NULL, 'pull-right btn-info btn-xs' ); ?></div>
+        <div class="panel-body">
+          <?php echo $order->info['payment_method']; ?>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+<?php
+  if (is_array($payment_modules->modules)) {
+    if ($confirmation = $payment_modules->confirmation()) {
+?>
+  <hr>
+
+  <h2><?php echo HEADING_PAYMENT_INFORMATION; ?></h2>
+
+  <div class="contentText row">
+<?php
+    if (tep_not_null($confirmation['title'])) {
+      echo '<div class="col-sm-6">';
+      echo '  <div class="alert alert-danger">';
+      echo $confirmation['title'];
+      echo '  </div>';
+      echo '</div>';
+    }
+?>
+<?php
+      if (isset($confirmation['fields'])) {
+        echo '<div class="col-sm-6">';
+        echo '  <div class="alert alert-info">';
+        $fields = '';
+        for ($i=0, $n=sizeof($confirmation['fields']); $i<$n; $i++) {
+          $fields .= $confirmation['fields'][$i]['title'] . ' ' . $confirmation['fields'][$i]['field'] . '<br>';
+        }
+        if (strlen($fields) > 4) echo substr($fields,0,-4);
+        echo '  </div>';
+        echo '</div>';
+      }
+?>
+  </div>
+  <div class="clearfix"></div>
+
+<?php
+    }
+  }
+?>
+
+  <div class="row">
+    <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
+  </div>
+    
 </div>
 
 </form>
