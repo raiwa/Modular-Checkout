@@ -9,7 +9,7 @@
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cp-payment-address">
 
-  <h2><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_ADDRESS_TABLE_HEADING; ?></h2>
+  <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_ADDRESS_TABLE_HEADING; ?></h2>
 
   <div class="contentText row">
     <div class="col-sm-8">

@@ -9,7 +9,7 @@
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cs-shipping-methods">
 
-  <h2><?php echo MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_METHODS_TABLE_HEADING; ?></h2>
+  <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_METHODS_TABLE_HEADING; ?></h2>
 
 <?php
     if (sizeof($quotes) > 1 && sizeof($quotes[0]) > 1) {

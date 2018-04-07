@@ -215,7 +215,7 @@
 ?>
   <hr>
 
-  <h2><?php echo HEADING_PAYMENT_INFORMATION; ?></h2>
+  <h2 class="h3"><?php echo HEADING_PAYMENT_INFORMATION; ?></h2>
 
   <div class="contentText row">
 <?php

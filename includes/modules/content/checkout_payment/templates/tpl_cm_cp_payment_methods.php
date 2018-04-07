@@ -9,7 +9,7 @@
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cp-payment-methods">
 
-  <h2><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TABLE_HEADING; ?></h2>
+  <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TABLE_HEADING; ?></h2>
 
 <?php
   $selection = $payment_modules->selection();
