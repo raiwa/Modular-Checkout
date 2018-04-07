@@ -223,20 +223,6 @@
 
 <div class="contentContainer">
 
-<?php
-  if ($addresses_count < MAX_ADDRESS_BOOK_ENTRIES) {
-?>
-
-  <h2 class="h3"><?php echo TABLE_HEADING_NEW_SHIPPING_ADDRESS; ?></h2>
-
-  <div class="alert alert-info"><?php echo TEXT_CREATE_NEW_SHIPPING_ADDRESS; ?></div>
-
-  <?php require('includes/modules/checkout_new_address.php'); ?>
-
-<?php
-  }
-?>
-
   <div class="row">
     <?php echo $oscTemplate->getContent('checkout_shipping_address'); ?>
   </div>
