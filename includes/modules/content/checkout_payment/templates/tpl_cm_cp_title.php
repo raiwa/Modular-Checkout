@@ -9,6 +9,6 @@
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-checkout_payment-title">
   <div class="page-header">
-    <h1 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE; ?></h1>
+    <h1 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_PUBLIC_TITLE; ?></h1>
   </div>
 </div>
