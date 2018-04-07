@@ -33,10 +33,11 @@ Exposé:
 3.   Checkout shipping/payment address (optional)
 
     - page header <i>@Dan Cole</i> [Sort order=100]
-    - address (1 module) <i>@raiwa</i> [Sort order=200]
-    - new shipping/billing address [Sort order=300]
-    - continue button <i>DONE @raiwa</i> [Sort order=400]	
-    - progress line <i>DONE @Dan Cole</i> [Sort order=500]
+    - address (1 module) <i>DONE @raiwa</i> [Sort order=200]
+    - address book entries (1 module) <i>@raiwa</i> [Sort order=300]
+    - new shipping/billing address [Sort order=400]
+    - continue button <i>DONE @raiwa</i> [Sort order=500]	
+    - progress line <i>DONE @Dan Cole</i> [Sort order=600]
     
     
 4.   doubts/to decide:
