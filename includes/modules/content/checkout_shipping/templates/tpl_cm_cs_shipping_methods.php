@@ -8,7 +8,6 @@
 */
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cs-shipping-methods">
-  <div class="clearfix"></div>
 
   <h2><?php echo MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_METHODS_TABLE_HEADING; ?></h2>
 
