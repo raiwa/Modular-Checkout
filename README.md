@@ -18,7 +18,7 @@ Exposé:
 
 2.   Checkout confirmation:
 
-    -  page header <i>@Dan Cole</i> [Sort order=100]
+    -  page header <i>DONE @Dan Cole</i> [Sort order=100]
     -  products+ot [Sort order=200] <i>@piernas</i> [Sort order=200]
     -  delivery address <i>@raiwa parked</i> [Sort order=300]
     -  payment address <i>@raiwa parked</i> [Sort order=400]

@@ -13,8 +13,6 @@
 define('NAVBAR_TITLE_1', 'Checkout');
 define('NAVBAR_TITLE_2', 'Confirmation');
 
-define('HEADING_TITLE', 'Order Confirmation');
-
 define('HEADING_SHIPPING_INFORMATION', 'Shipping Information');
 define('HEADING_DELIVERY_ADDRESS', 'Delivery Address');
 define('HEADING_SHIPPING_METHOD', 'Shipping Method');

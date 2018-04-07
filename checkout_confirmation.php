@@ -90,10 +90,6 @@
   require('includes/template_top.php');
 ?>
 
-<div class="page-header">
-  <h1><?php echo HEADING_TITLE; ?></h1>
-</div>
-
 <?php
   if ($messageStack->size('checkout_confirmation') > 0) {
     echo $messageStack->output('checkout_confirmation');
@@ -106,6 +102,7 @@
   }
   
   echo tep_draw_form('checkout_confirmation', $form_action_url, 'post');
+  
 ?>
 
 <div class="contentContainer">
@@ -254,7 +251,7 @@
   <div class="row">
     <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
   </div>
-    
+
 </div>
 
 </form>
