@@ -45,8 +45,8 @@ Exposé:
     - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2)
     - old "checkout_new_address.php" module: call in modules via "include" or move content into new modules. 
     
-5.   checks/tests to be performed:    
-    - class="clearfix"line in step wizard module: disturbs/needed if sort order is changed?
+5.   checks/tests to be performed, DONE:    
+    - remove class="clearfix"line in all modules
     
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
