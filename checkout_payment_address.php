@@ -215,23 +215,6 @@
   if ($process == false) {
 ?>
 
-  <h2 class="h3"><?php echo TABLE_HEADING_PAYMENT_ADDRESS; ?></h2>
-
-  <div class="contentText row">
-    <div class="col-sm-8">
-      <div class="alert alert-warning"><?php echo TEXT_SELECTED_PAYMENT_DESTINATION; ?></div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel panel-primary">
-        <div class="panel-heading"><?php echo TITLE_PAYMENT_ADDRESS; ?></div>
-
-        <div class="panel-body">
-          <?php echo tep_address_label($customer_id, $billto, true, ' ', '<br />'); ?>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="clearfix"></div>
   
 
@@ -288,8 +271,8 @@
   }
 ?>
 
-  <div class="buttonSet">
-    <div class="text-right"><?php echo tep_draw_hidden_field('action', 'submit') . tep_draw_button(IMAGE_BUTTON_CONTINUE, 'fa fa-angle-right', null, 'primary', null, 'btn-success'); ?></div>
+  <div class="row">
+    <?php echo $oscTemplate->getContent('checkout_shipping_address'); ?>
   </div>
 
   <div class="clearfix"></div>
