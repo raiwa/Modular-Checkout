@@ -14,7 +14,3 @@ define('NAVBAR_TITLE_1', 'Checkout');
 define('NAVBAR_TITLE_2', 'Change Shipping Address');
 
 define('HEADING_TITLE', 'Delivery Information');
-
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Continue Checkout Procedure');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', 'to select the preferred shipping method.');
-?>
