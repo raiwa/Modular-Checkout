@@ -9,8 +9,6 @@
 ?>
  <div class="col-sm-<?php echo $content_width; ?> cm-cc-stepwizard">
  
-  <div class="clearfix"></div>
-
   <div class="contentText">
     <div class="stepwizard">
       <div class="stepwizard-row">

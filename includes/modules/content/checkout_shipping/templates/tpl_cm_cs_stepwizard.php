@@ -7,9 +7,7 @@
   Released under the GNU General Public License
 */
 ?>
-<div class="col-sm-<?php echo $content_width; ?> cm-cs-stepwizard">
-
-  <div class="clearfix"></div>
+ <div class="col-sm-<?php echo $content_width; ?> cm-cs-stepwizard">
   
   <div class="contentText">
     <div class="stepwizard">
@@ -30,5 +28,5 @@
     </div>
   </div>
   
-</div>
+ </div>
   
