@@ -6,7 +6,7 @@
   Copyright (c) 2018 osCommerce
   Released under the GNU General Public License
 */
-  class cm_checkout_payment_title {
+  class cm_cp_title {
     var $code;
     var $group;
     var $title;
