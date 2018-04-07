@@ -15,10 +15,6 @@ define('NAVBAR_TITLE_2', 'Change Shipping Address');
 
 define('HEADING_TITLE', 'Delivery Information');
 
-define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', 'Address Book Entries');
-define('TEXT_SELECT_OTHER_SHIPPING_DESTINATION', 'Please select the preferred shipping address if the items in this order are to be delivered elsewhere.');
-define('TITLE_PLEASE_SELECT', 'Please Select');
-
 define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'New Shipping Address');
 define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Please use the following form to create a new shipping address to use for this order.');
 
