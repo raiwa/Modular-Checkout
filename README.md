@@ -34,8 +34,8 @@ Exposé:
 
     - page header <i>@Dan Cole</i> [Sort order=100]
     - address (1 module) <i>DONE @raiwa</i> [Sort order=200]
-    - address book entries (1 module) <i>@raiwa</i> [Sort order=300]
-    - new shipping/billing address [Sort order=400]
+    - address book entries (1 module) <i>DONE @raiwa</i> [Sort order=300]
+    - new shipping/billing address <i>DONE @raiwa</i> [Sort order=400]
     - continue button <i>DONE @raiwa</i> [Sort order=500]	
     - progress line <i>DONE @Dan Cole</i> [Sort order=600]
     
@@ -44,7 +44,7 @@ Exposé:
 
     - address block in checkout_shipping/payment: 1 or 3 modules
     - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2)
-    - old "checkout_new_address.php" module: call in modules via "include" or move content into new modules. 
+    - old "checkout_new_address.php" module: call in modules via "include" DECIDED
     
 5.   checks/tests to be performed, DONE:    
     - remove class="clearfix"line in all modules
