@@ -7,7 +7,8 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_TITLE_HEADING_TITLE', 'Page Heading');
+  define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_TITLE_TITLE', 'Page Heading');
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_TITLE_DESCRIPTION', 'Shows the Page Heading on the Checkout Shipping Address Page.');
+  define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_TITLE_TABLE_HEADING', 'Add the Page Heading on your Checkout Shipping Address Page.');
   
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_TITLE_PUBLIC_TITLE', 'Delivery Information');
