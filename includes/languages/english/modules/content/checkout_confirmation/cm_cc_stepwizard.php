@@ -12,6 +12,3 @@
 
   define('MODULE_CONTENT_CHECKOUT_CONFIRMATION_STEPWIZARD_TITLE', 'StepWizard');
   define('MODULE_CONTENT_CHECKOUT_CONFIRMATION_STEPWIZARD_DESCRIPTION', 'Shows the StepWizard on the Checkout Confirmation Page.');
-  
-  define('MODULE_CONTENT_CHECKOUT_CONFIRMATION_STEPWIZARD_TABLE_HEADING', 'Add the StepWizard on your Checkout Confirmaiton Page.');
-
