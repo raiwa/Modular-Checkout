@@ -1,7 +1,7 @@
 <div class="col-sm-<?php echo $content_width; ?> cm-cc-payment-information">
   <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_CONFIRMATION_PAYMENT_INFORMATION_HEADING; ?></h2>
 
-  <div class="contentText row">
+  <div class="contentText">
 <?php
     if (tep_not_null($confirmation['title'])) {
       echo '<div class="alert alert-danger">';
