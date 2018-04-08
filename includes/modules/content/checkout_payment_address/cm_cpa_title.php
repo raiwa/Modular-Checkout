@@ -18,7 +18,7 @@
       $this->code = get_class($this);
       $this->group = basename(dirname(__FILE__));
 	  
-      $this->title = MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_TITLE_HEADING_TITLE;
+      $this->title = MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_TITLE_TITLE;
       $this->description = MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_TITLE_DESCRIPTION;
       $this->description .= '<div class="secWarning">' . MODULE_CONTENT_BOOTSTRAP_ROW_DESCRIPTION . '</div>';
 	  
