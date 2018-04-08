@@ -209,10 +209,6 @@
   require('includes/template_top.php');
 ?>
 
-<div class="page-header">
-  <h1 class="h3"><?php echo HEADING_TITLE; ?></h1>
-</div>
-
 <?php
   if ($messageStack->size('checkout_address') > 0) {
     echo $messageStack->output('checkout_address');

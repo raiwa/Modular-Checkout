@@ -12,5 +12,3 @@
 
 define('NAVBAR_TITLE_1', 'Checkout');
 define('NAVBAR_TITLE_2', 'Change Shipping Address');
-
-define('HEADING_TITLE', 'Delivery Information');
