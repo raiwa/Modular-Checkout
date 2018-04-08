@@ -49,6 +49,10 @@ Exposé:
 5.   checks/tests to be performed, DONE:    
     - remove class="clearfix"line in all modules
     
+6.   fork complete branch from Gary's master:    
+    - add install/configuration sql for all modules to install/oscommerce.sql
+    
+    
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
     
