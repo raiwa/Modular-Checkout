@@ -19,16 +19,12 @@ Exposé:
 2.   Checkout confirmation:
 
     -  page header <i>DONE @Dan Cole</i> [Sort order=100]
-    -  products+ot [Sort order=200] <i>@piernas</i> [Sort order=200]
-    -  delivery address <i>@raiwa parked</i> [Sort order=300]
-    -  payment address <i>@raiwa parked</i> [Sort order=400]
-    -  shipping method <i>@raiwa parked</i> [Sort order=500]
-    -  payment method <i>@raiwa parked</i> [Sort order=600]        
-                -  for now 1 module  summary  <i>@piernas</i> [Sort order=300]
-    -  payment information <i>@piernas</i> [Sort order=700]
-    -  comments <i>DONE @raiwa</i> [Sort order=800]
-    -  confirm order button <i>DONE @raiwa</i> [Sort order=900]
-    -  progress line <i>DONE @Dan Cole</i> [Sort order=1000]
+    -  products+ot [Sort order=200] <i>DONE @raiwa @piernas</i> [Sort order=200]
+    -  summary  <i>DONE @raiwa @piernas</i> [Sort order=300]
+    -  payment information <i>DONE @raiwa @piernas</i> [Sort order=400]
+    -  comments <i>DONE @raiwa</i> [Sort order=500]
+    -  confirm order button <i>DONE @raiwa</i> [Sort order=600]
+    -  progress line <i>DONE @Dan Cole</i> [Sort order=700]
 
 3.   Checkout shipping/payment address (optional)
 
