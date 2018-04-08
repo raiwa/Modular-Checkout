@@ -34,6 +34,7 @@ Exposé:
     - new shipping/billing address <i>DONE @raiwa</i> [Sort order=400]
     - continue button <i>DONE @raiwa</i> [Sort order=500]	
     - progress line <i>DONE @Dan Cole</i> [Sort order=600]
+    - back button <i>@raiwa</i> [Sort order=700]
     
     
 4.   doubts/to decide:
