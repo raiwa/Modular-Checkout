@@ -7,8 +7,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_TITLE', 'Page Heading');
+  define('MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_HEADING_TITLE', 'Page Heading');
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_DESCRIPTION', 'Shows the Page Heading on the Checkout Payment Page.');
-  define('MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_TABLE_HEADING', 'Add the Page Heading on your Checkout Payment Page.');
   
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_TITLE_PUBLIC_TITLE', 'Payment Information');
