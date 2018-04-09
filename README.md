@@ -44,6 +44,7 @@ Exposé:
     
 5.   checks/tests to be performed, DONE:    
     - remove class="clearfix"line in all modules
+    - Final tests
     
 6.   fork complete branch from Gary's master:    
     - add install/configuration sql for all modules to install/oscommerce.sql
