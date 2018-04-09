@@ -46,10 +46,12 @@ Exposé:
     - remove class="clearfix"line in all modules
     - Final tests
     
-6.   fork complete branch from Gary's master:    
+6.   fork complete branch from Gary's master or Modularity3? branch:    
     - add install/configuration sql for all modules to install/oscommerce.sql
     
-    
+7.   pull request to Gary's master or Modularity3? branch   
+
+
     Please self asign in comment or in this forum:
     https://forums.oscommerce.com/topic/412758-modular-checkout/?tab=comments#comment-1768187
     
