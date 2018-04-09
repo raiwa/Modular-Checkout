@@ -16,5 +16,5 @@
   <blockquote>
     <?php echo nl2br(tep_output_string_protected($order->info['comments'])) . tep_draw_hidden_field('comments', $order->info['comments']); ?>
   </blockquote>
-  
+
 </div>

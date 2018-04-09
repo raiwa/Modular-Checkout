@@ -8,6 +8,7 @@
 */
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cp-comments">
+
 <hr>
 
   <div class="contentText">
@@ -20,4 +21,5 @@
       </div>
     </div>
   </div>
+
 </div>

@@ -1,4 +1,14 @@
+<?php
+/*
+  $Id$
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+  Copyright (c) 2018 osCommerce
+  Released under the GNU General Public License
+*/
+?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cc-payment-information">
+
   <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_CONFIRMATION_PAYMENT_INFORMATION_HEADING; ?></h2>
 
   <div class="contentText">
@@ -20,5 +30,6 @@
         echo '</div>';
       }
 ?>
-  </div> 
+  </div>
+
 </div>

@@ -16,5 +16,3 @@
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_ADDRESS_TABLE_HEADING', 'Shipping Address');
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_ADDRESS_TEXT_CHOOSE_SHIPPING_DESTINATION', 'Please choose from your address book where you would like the items to be delivered to.');
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_ADDRESS_TITLE_SHIPPING_ADDRESS', 'Shipping Address:');
-
-

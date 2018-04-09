@@ -8,6 +8,7 @@
 */
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cc-summary">
+
   <div class="row">
     <?php
     if ($sendto != false) {
@@ -52,4 +53,5 @@
       </div>
     </div>
   </div>
+
 </div>

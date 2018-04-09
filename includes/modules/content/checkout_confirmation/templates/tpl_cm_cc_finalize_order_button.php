@@ -8,6 +8,7 @@
 */
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cs-finalize-order-button">
+
   <div class="buttonSet">
     <div class="text-right">
       <?php
@@ -18,4 +19,5 @@
       ?>
     </div>
   </div>
+
 </div>

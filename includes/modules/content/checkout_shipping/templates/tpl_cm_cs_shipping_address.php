@@ -8,6 +8,7 @@
 */
 ?>
 <div class="col-sm-<?php echo $content_width; ?> cm-cs-shipping-address">
+
   <h2 class="h3"><?php echo MODULE_CONTENT_CHECKOUT_SHIPPING_SHIPPING_ADDRESS_TABLE_HEADING; ?></h2>
 
   <div class="contentText row">

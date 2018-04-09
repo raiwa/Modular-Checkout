@@ -8,7 +8,7 @@
 */
 ?>
  <div class="col-sm-<?php echo $content_width; ?> cm-cs-stepwizard">
-  
+
   <div class="contentText">
     <div class="stepwizard">
       <div class="stepwizard-row">
@@ -27,6 +27,5 @@
       </div>
     </div>
   </div>
-  
+
  </div>
-  

@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2016 osCommerce
+  Copyright (c) 2018 osCommerce
 
   Released under the GNU General Public License
 */
@@ -15,4 +15,3 @@
 
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_ADDRESS_BOOK_ENTRIES_TABLE_HEADING', 'Address Book Entries');
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_ADDRESS_BOOK_ENTRIES_TEXT_SELECT_OTHER_PAYMENT_DESTINATION', 'Please select the preferred billing address if the invoice to this order is to be delivered elsewhere.');
-

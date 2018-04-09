@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2016 osCommerce
+  Copyright (c) 2018 osCommerce
 
   Released under the GNU General Public License
 */
@@ -17,5 +17,3 @@
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TEXT_SELECT', 'Please select the preferred payment method to use on this order.');
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TITLE_PLEASE_SELECT', 'Please Select');
   define('MODULE_CONTENT_CHECKOUT_PAYMENT_PAYMENT_METHODS_TEXT_ENTER_PAYMENT_INFORMATION', 'This is currently the only payment method available to use on this order.');
-
-

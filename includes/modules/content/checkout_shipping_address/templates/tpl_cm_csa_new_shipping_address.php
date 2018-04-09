@@ -14,5 +14,5 @@
   <div class="alert alert-info"><?php echo MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_NEW_SHIPPING_ADDRESS_TEXT_CREATE_NEW_SHIPPING_ADDRESS; ?></div>
 
   <?php require('includes/modules/checkout_new_address.php'); ?>
-  
+
 </div>
