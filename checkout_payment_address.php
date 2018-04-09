@@ -211,18 +211,6 @@
     <?php echo $oscTemplate->getContent('checkout_payment_address'); ?>
   </div>
 
-<?php
-  if ($process == true) {
-?>
-
-  <div class="buttonSet">
-    <?php echo tep_draw_button(IMAGE_BUTTON_BACK, 'fa fa-angle-left', tep_href_link('checkout_payment_address.php', '', 'SSL')); ?>
-  </div>
-
-<?php
-  }
-?>
-
 </div>
 
 </form>

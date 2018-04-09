@@ -33,7 +33,7 @@
     }
 
     function execute() {
-      global $oscTemplate, $comments;
+      global $oscTemplate, $process;
       
       $content_width = (int)MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_CONTINUE_BUTTON_CONTENT_WIDTH;
 
