@@ -7,7 +7,7 @@ Exposé:
 - Move only the content part between includes template_top.php and includes template_bottom.php into content modules
 - Suggested modules:
 
-1.   Checkout shipping and payment:
+1.   Checkout shipping and payment: DONE 
 
     -  page header <i>DONE @Dan Cole</i> [Sort order=100]
     -  address (1 module) <i>DONE @raiwa</i> [Sort order=200]
@@ -16,25 +16,24 @@ Exposé:
 -  continue button <i>DONE @raiwa</i> [Sort order=500]
 -  progress line <i>DONE @Dan Cole</i>  [Sort order=600]
 
-2.   Checkout confirmation:
+2.   Checkout confirmation: DONE 
 
     -  page header <i>DONE @Dan Cole</i> [Sort order=100]
-    -  products+ot [Sort order=200] <i>DONE @raiwa @piernas</i> [Sort order=200]
+    -  products+ot <i>DONE @raiwa @piernas</i> [Sort order=200]
     -  summary  <i>DONE @raiwa @piernas</i> [Sort order=300]
     -  payment information <i>DONE @raiwa @piernas</i> [Sort order=400]
     -  comments <i>DONE @raiwa</i> [Sort order=500]
     -  confirm order button <i>DONE @raiwa</i> [Sort order=600]
     -  progress line <i>DONE @Dan Cole</i> [Sort order=700]
 
-3.   Checkout shipping/payment address (optional)
+3.   Checkout shipping/payment address (optional) DONE 
 
-    - page header <i>@Dan Cole</i> [Sort order=100]
+    - page header <i>DONE @Dan Cole</i> [Sort order=100]
     - address (1 module) <i>DONE @raiwa</i> [Sort order=200]
     - address book entries (1 module) <i>DONE @raiwa</i> [Sort order=300]
     - new shipping/billing address <i>DONE @raiwa</i> [Sort order=400]
-    - continue button <i>DONE @raiwa</i> [Sort order=500]	
+    - continue and back button <i>DONE @raiwa</i> [Sort order=500]	
     - progress line <i>DONE @Dan Cole</i> [Sort order=600]
-    - back button <i>@raiwa</i> [Sort order=700]
     
     
 4.   doubts/to decide:
