@@ -33,7 +33,7 @@
     }
 
     function execute() {
-      global $oscTemplate, $comments;
+      global $oscTemplate, $process;
       
       $content_width = (int)MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_CONTENT_WIDTH;
 
@@ -55,7 +55,6 @@
     function install() {
       tep_db_query("insert into configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Enable Continue Button Module', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_STATUS', 'True', 'Should this module be shown on the checkout shipping address page?', '6', '1', 'tep_cfg_select_option(array(\'True\', \'False\'), ', now())");
       tep_db_query("insert into configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Content Width', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_CONTENT_WIDTH', '12', 'What width container should the content be shown in?', '6', '1', 'tep_cfg_select_option(array(\'12\', \'11\', \'10\', \'9\', \'8\', \'7\', \'6\', \'5\', \'4\', \'3\', \'2\', \'1\'), ', now())");
-      tep_db_query("insert into configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, set_function, date_added) values ('Button alignment', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_ALIGNMENT', 'right', 'The alignment of the button.', '6', '1', 'tep_cfg_select_option(array(\'left\', \'right\', \'center\'), ', now())");
       tep_db_query("insert into configuration (configuration_title, configuration_key, configuration_value, configuration_description, configuration_group_id, sort_order, date_added) values ('Sort Order', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_SORT_ORDER', '500', 'Sort order of display. Lowest is displayed first.', '6', '1', now())");
     }
 
@@ -64,7 +63,6 @@
     }
 
     function keys() {
-      return array('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_STATUS', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_CONTENT_WIDTH', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_ALIGNMENT', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_SORT_ORDER');
+      return array('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_STATUS', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_CONTENT_WIDTH', 'MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_SORT_ORDER');
     }
   }
-  

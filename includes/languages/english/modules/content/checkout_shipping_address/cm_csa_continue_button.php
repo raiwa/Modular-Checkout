@@ -12,4 +12,3 @@
 
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_TITLE', 'Continue Button');
   define('MODULE_CONTENT_CHECKOUT_SHIPPING_ADDRESS_CONTINUE_BUTTON_DESCRIPTION', 'Shows the Continue Button on the Checkout Shipping Address Page.');
-
