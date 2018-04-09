@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_CONTENT_CHECKOUT_PAYMENT_STEPWIZARD_TITLE', 'StepWizard');
-  define('MODULE_CONTENT_CHECKOUT_PAYMENT_STEPWIZARD_DESCRIPTION', 'Shows the StepWizard on your Checkout Payment Page.'); 
+  define('MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_STEPWIZARD_TITLE', 'StepWizard');
+  define('MODULE_CONTENT_CHECKOUT_PAYMENT_ADDRESS_STEPWIZARD_DESCRIPTION', 'Shows the StepWizard on your Checkout Payment Address Page.'); 
