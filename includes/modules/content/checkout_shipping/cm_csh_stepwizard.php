@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  class cm_cs_stepwizard {
+  class cm_csh_stepwizard {
     var $code;
     var $group;
     var $title;

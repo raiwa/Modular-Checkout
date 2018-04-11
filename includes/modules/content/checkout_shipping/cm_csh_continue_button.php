@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  class cm_cs_continue_button {
+  class cm_csh_continue_button {
     var $code;
     var $group;
     var $title;

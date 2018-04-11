@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  class cm_cs_comments {
+  class cm_csh_comments {
     var $code;
     var $group;
     var $title;

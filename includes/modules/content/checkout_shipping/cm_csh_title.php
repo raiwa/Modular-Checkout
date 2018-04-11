@@ -6,7 +6,7 @@
   Copyright (c) 2018 osCommerce
   Released under the GNU General Public License
 */
-  class cm_cs_title {
+  class cm_csh_title {
     var $code;
     var $group;
     var $title;

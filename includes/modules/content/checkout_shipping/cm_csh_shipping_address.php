@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  class cm_cs_shipping_address {
+  class cm_csh_shipping_address {
     var $code;
     var $group;
     var $title;

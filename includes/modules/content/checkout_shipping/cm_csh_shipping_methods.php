@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  class cm_cs_shipping_methods {
+  class cm_csh_shipping_methods {
     var $code;
     var $group;
     var $title;
