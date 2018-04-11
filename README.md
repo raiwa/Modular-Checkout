@@ -38,16 +38,16 @@ Exposé:
     
 4.   doubts/to decide:
 
-    - address block in checkout_shipping/payment: 1 or 3 modules
-    - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2)
+    - address block in checkout_shipping/payment: 1 or 3 modules DECIDED
+    - shipping/payment address block in checkout_confirmation: 1 or 4 modules (or 2) DECIDED
     - old "checkout_new_address.php" module: call in modules via "include" DECIDED
     
 5.   checks/tests to be performed, DONE:    
-    - remove class="clearfix"line in all modules
+    - remove class="clearfix"line in all modules DONE
     - Final tests
     
-6.   fork complete branch from Gary's master or Modularity3? branch:    
-    - add install/configuration sql for all modules to install/oscommerce.sql
+6.   fork complete branch from Gary's master or Modularity3? branch:  DONE  
+    - add install/configuration sql for all modules to install/oscommerce.sql DONE
     
 7.   pull request to Gary's master or Modularity3? branch   
 
