@@ -2,6 +2,10 @@
 /*
   $Id$
 
+  Modular Checkout by @raiwa
+  info@oscaddons.com
+  www.oscaddons.com
+  
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
@@ -38,11 +42,6 @@
   if (!tep_session_is_registered('payment')) tep_session_register('payment');
   if (isset($_POST['payment'])) $payment = $_POST['payment'];
 
-  if (!tep_session_is_registered('comments')) tep_session_register('comments');
-  if (isset($_POST['comments']) && tep_not_null($_POST['comments'])) {
-    $comments = tep_db_prepare_input($_POST['comments']);
-  }
-
 // load the selected payment module
   require('includes/classes/payment.php');
   $payment_modules = new payment($payment);
@@ -50,23 +49,9 @@
   require('includes/classes/order.php');
   $order = new order;
 
-  $payment_modules->update_status();
-
-  if ( ($payment_modules->selected_module != $payment) || ( is_array($payment_modules->modules) && (sizeof($payment_modules->modules) > 1) && !is_object($$payment) ) || (is_object($$payment) && ($$payment->enabled == false)) ) {
-    tep_redirect(tep_href_link('checkout_payment.php', 'error_message=' . urlencode(ERROR_NO_PAYMENT_MODULE_SELECTED), 'SSL'));
-  }
-
-  if (is_array($payment_modules->modules)) {
-    $payment_modules->pre_confirmation_check();
-  }
-
 // load the selected shipping module
   require('includes/classes/shipping.php');
   $shipping_modules = new shipping($shipping);
-
-  require('includes/classes/order_total.php');
-  $order_total_modules = new order_total;
-  $order_total_modules->process();
 
 // Stock Check
   $any_out_of_stock = false;
@@ -82,7 +67,13 @@
     }
   }
 
+  require('includes/classes/order_total.php');
+  $order_total_modules = new order_total;
+  $order_total_modules->process();
+
   require('includes/languages/' . $language . '/checkout_confirmation.php');
+
+  $page_content = $oscTemplate->getContent('checkout_confirmation');
 
   $breadcrumb->add(NAVBAR_TITLE_1, tep_href_link('checkout_shipping.php', '', 'SSL'));
   $breadcrumb->add(NAVBAR_TITLE_2);
@@ -108,7 +99,7 @@
 <div class="contentContainer">
 
   <div class="row">
-    <?php echo $oscTemplate->getContent('checkout_confirmation'); ?>
+    <?php echo $page_content; ?>
   </div>
 
 </div>

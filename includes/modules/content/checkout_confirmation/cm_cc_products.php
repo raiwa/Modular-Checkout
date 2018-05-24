@@ -2,6 +2,10 @@
 /*
   $Id$
 
+  Modular Checkout by @raiwa
+  info@oscaddons.com
+  www.oscaddons.com
+  
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
@@ -36,7 +40,7 @@
       global $oscTemplate, $order, $currencies, $order_total_modules;
 
       $content_width = (int)MODULE_CONTENT_CHECKOUT_CONFIRMATION_PRODUCTS_CONTENT_WIDTH;
-
+      
       ob_start();
       include('includes/modules/content/' . $this->group . '/templates/tpl_' . basename(__FILE__));
       $template = ob_get_clean();
